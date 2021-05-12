@@ -1,0 +1,169 @@
+.App {
+  display: flex;
+  text-align: center;
+  font-family: 'Avenir Next Condensed',sans-serif ;
+}
+.logo{
+  margin-top: 25%;
+  margin-left: -30px;
+}
+
+nav{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  width: 15vW;
+  padding-right: 30px;
+  border-radius: 30px;
+  height: 100vh;
+  flex-direction: column;
+  background-image: radial-gradient(circle,#21A096,#23A6A0,#24AAA5,#26B0AD,#29B9B9);
+  color: white;
+}
+
+.nav-links{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3%;
+  flex-direction: column;
+  list-style: none;
+}
+
+.nav-style{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-size: 1em;
+  text-decoration: none;
+  color: white;
+}
+.nav-icon{
+  padding-right: 10px;
+}
+
+.component-div{
+  width: 87vw;
+  background-color: #F5F6FA;
+  margin-left: -3.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  height: 100vh;
+  box-shadow: 0px 3px 6px #000000;
+  border-radius: 30px;
+}
+.component{
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+.nav-more{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -30px;
+  flex-direction: column;
+  height: 100%;
+}
+.user-location{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25%;
+}
+
+.nav-style:focus{
+  font-weight: bold;
+}
+.explore-left{
+  width: 70%;
+  height: 100vh;
+  padding-left: 50px;
+  padding-top: 5%;
+  text-align: left;
+}
+.explore-right{
+  width: 29%;
+  height: 100vh;
+  margin-right: 30px;
+  margin-top: 5%;
+  text-align: left;
+}
+.explore-heading{
+  font-size: 36px;
+  font-weight: 600;
+  color: #2E4765;
+}
+.input{
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 0px 10px 0px;
+  border: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+  opacity: 1;
+}
+.search-button{
+  border:0px;
+  background: white;
+  padding: 0px;
+}
+.data-div{
+  display: flex;
+  height: 70%;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.data-container{
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: scroll;
+}
+.data-heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.library-card{
+  box-shadow: 0px 3px 6px #0000005F;
+  border-radius: 27px;
+  background-color: white;
+  width: 363px;
+  height: 268px;
+  margin: 10px 30px 30px 10px;
+  flex-shrink: 0;
+}
+.card-css{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: scroll;
+}
+.book-card{
+  box-shadow: 0px 3px 6px #0000006F;
+  border-radius: 27px;
+  background-color: white;
+  width: 144px;
+  height: 281px;
+  margin: 10px 30px 30px 10px;
+  flex-shrink: 0;
+}
+.genre-card{
+  border-radius: 15px;
+  width: 278px;
+  height: 201px;
+  background-color: white;
+  margin: 10px 30px 30px 10px;
+  flex-shrink: 0;
+}
